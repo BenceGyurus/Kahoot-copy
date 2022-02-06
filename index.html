@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "header">
+        <h1 class = "title" id = "main_Title">Majd Cím</h1>
+        <h3 class = "title" id = "secondary_Title">Hozd létre a saját quizedet</h3>
+        <div class = "menu_Grid">
+            <div id = "menu">
+                <p class = "menu_Point" onclick = "get_This('main')" id = 'menu_Point'>Kezdőlap</p>
+                <a id = "menu_Point"  class = "menu_Point" href = "/create_Quiz.html">Létrehozás</a>
+                <p class = " menu_Point" onclick = "get_This('join')" id = 'menu_Point'>Csatlakozás</p>
+            </div>
+        </div>
+    </div>
+    <div id = "container"></div>
+</body>
+<script src = "main.js"></script>
+<script src = "ajax_Request.js"></script>
+<script src = "join.js"></script>
+<script src="style.js"></script>
+</html>

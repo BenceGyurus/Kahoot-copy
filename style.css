@@ -1,0 +1,132 @@
+*{
+    font-family: "ubuntu", sans-serif;
+    color: #bdbdbd;
+}
+body{
+    background-color: #0079b5;
+    height: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 80%;
+}
+
+#header{
+    width: max-content;
+    padding: 10px;
+    margin: 10px;
+}
+.title{
+    padding: 0px;
+    margin: 0px;
+}
+
+#main_Title{
+    color: #6b6b6b;
+    font-size: 50px;
+    border-bottom: 3px solid #6b6b6b;
+}
+
+#secondary_Title{
+    margin-top:3px;
+    font-size: 16px;
+    /*color: #c2c2c2;*/
+}
+
+p{
+    font-weight: bold;
+}
+
+.menu_Point{
+    /*color: #6b6b6b;*/
+    list-style:none;
+    padding: 10px;
+    margin-right: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu_Point:hover{
+    transition-duration: 0.1s;
+    color: white;
+}
+.menu_Point:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+
+#gird{
+    width: 90%;
+    height: 100%;
+    top: 50%;
+    position: relative;
+    margin: auto auto;
+}
+
+.answer_Block{
+    transition: 0.3s;
+    padding: 30px 0px 30px 0px;
+    margin: 4px;
+    width: 45%;
+    max-height: 49%;
+    display: inline-block;
+    margin-top: 5px;
+    box-shadow: 2px 3px 3px 2px #00314a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.answer_Block:hover{
+    transition: 0.1s;
+    box-shadow: 5px 8px 8px 5px #00314a;
+    transform: rotateX(14deg);
+}
+
+#load_Animation{
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+
+.more_Grid_Class{
+    display: inline-block;
+    width: max-content;
+    box-shadow: 3px 5px 5px 3px #00314a;
+}
+
+#timer{
+    height: 30px;
+    background-color: red;
+    border-radius: 30px;
+    margin: 10px
+}
+
+#join_Button:hover{
+    transition: 0.3s;
+    box-shadow: 8px 10px 10px 8px #00314a;
+    transform: rotateX(15deg);
+}
+
+.joins{
+    transition: 0.3s;
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+    border: none;
+    border-bottom: 3px solid #001b29;
+    background-color: #006191;
+    box-shadow: 3px 5px 5px 3px #00314a;
+    padding: 3px;
+    font-size: 20px; 
+    border-radius: 10px;
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+}

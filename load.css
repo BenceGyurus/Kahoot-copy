@@ -1,0 +1,156 @@
+*{
+    font-family: "ubuntu", sans-serif;
+    color: #454545;
+}
+body{
+    background-color: #4dc3ff;
+}
+
+.answear{
+    transition:0.2s;
+    display:inline-block;
+    width: 41%;
+    text-align: center;
+    box-shadow: 1px 2px 2px 1px #454545;
+    margin: 4%;
+    padding: 30px 0px 30px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.answear:hover{
+    transition:0.1s;
+    position: relative;
+    bottom: 3px;
+    box-shadow: 3px 4px 4px 3px #454545;
+}
+
+.grid_Div{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px #454545;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: #17b2ff;
+}
+
+.question_Title{
+    text-align: center;
+    font-size: 30px;
+}
+#control_Btn{
+    transition: 0.3s;
+    border: none;
+    background: #dbd9d9;
+    border-radius: 1px;
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 2px 3px 3px 2px #454545;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#control_Btn:hover{
+    transition: 0.1s;
+    box-shadow: 3px 5px 5px 3px #454545;
+}
+
+#control_Btn:active{
+    box-shadow: 1px 1px 1px 1px #454545;
+    position: relative;
+    top: 1px;
+}
+#data_Grid{
+    width: 80%;
+    border-top: 5px solid black;
+    height: max-content;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 20px auto;
+    background-color: #17b2ff;
+    border-radius: 10px;
+}
+.data{
+    transition: 3s;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 3px 5px 5px 3px #454545;
+    border-radius: 10px;
+}
+
+.more_Grid_Class{
+    width: max-content;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 3px 5px 5px 3px #454545;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #17b2ff;
+}
+
+.memeber_Names{
+    width: max-content;
+    border-radius: 10px;
+    background-color: #17b2ff;
+    padding: 10px;
+    margin: 10px auto;
+    text-shadow: 1px 1px 1px 1px #454545;
+}
+
+.btn{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px 3px #454545;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #17b2ff;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+.point_Name{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.plus_In_This_Round{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
+
+.place_Div{
+    width: max-content;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#result{
+    width: 50%;
+    background-color: #17b2ff;
+    height: 50%;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #454545;
+    overflow-y: auto;
+}
+
+#connection_Code{
+    text-align: center;
+}
